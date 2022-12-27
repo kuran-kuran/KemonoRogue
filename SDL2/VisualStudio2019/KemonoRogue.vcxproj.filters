@@ -1,0 +1,297 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{f68f3c35-fe5c-4e82-8027-b8c762e83dc6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\TinyLibrary">
+      <UniqueIdentifier>{028814fc-fa49-45c9-b476-144a095358f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\TinyLibrary\SDL2">
+      <UniqueIdentifier>{74c36409-b230-4d47-a015-7d7ae2a8227b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\Button.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Cerulean.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Character.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Cursor.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DaimonLogo.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Decision.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DustEffect.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Ending.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\EndingBG.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\EndingCongratulations.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\EndingMessage.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\EndingMessage_jp.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Enemy.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Enemy.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\FloorMap.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Game.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\GameData.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Global.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\hmix3.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Item.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Item.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\ItemWindow.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Kaban.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\LeftArrow.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\MainLoop.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Maze.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Object.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Otoyoi.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Player.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Player.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Popup.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Resource.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Resume.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\RightArrow.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Serval.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Shadow.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Sound.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\StatusWindow.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\TinyLibrary.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Tinyrogue_down001.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Tinyrogue_hit001.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Tinyrogue_open.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Title.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Title_en.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Toki.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Tsuchinoko.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\TuchikureLogo.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Window.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\TinyLibrary\AdpcmDecorder.hpp">
+      <Filter>src\TinyLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\TinyLibrary\Dependent.hpp">
+      <Filter>src\TinyLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\TinyLibrary\Font4x6.h">
+      <Filter>src\TinyLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\TinyLibrary\Font4x6_65536.h">
+      <Filter>src\TinyLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\TinyLibrary\Font6x8.h">
+      <Filter>src\TinyLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\TinyLibrary\Font6x8_65536.h">
+      <Filter>src\TinyLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\TinyLibrary\Mathmatics.hpp">
+      <Filter>src\TinyLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\TinyLibrary\SoundMixer.hpp">
+      <Filter>src\TinyLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\TinyLibrary\SoundPlayer.hpp">
+      <Filter>src\TinyLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\TinyLibrary\TinyLibrary.hpp">
+      <Filter>src\TinyLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\TinyLibrary\SDL2\Controller.hpp">
+      <Filter>src\TinyLibrary\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\TinyLibrary\SDL2\RingBuffer.hpp">
+      <Filter>src\TinyLibrary\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\TinyLibrary\SDL2\Screen.hpp">
+      <Filter>src\TinyLibrary\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\TinyLibrary\SDL2\SoundStream.hpp">
+      <Filter>src\TinyLibrary\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\TinyLibrary\SDL2\TinyFile.hpp">
+      <Filter>src\TinyLibrary\SDL2</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\Cerulean.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Ending.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Enemy.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\FloorMap.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Game.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\GameData.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Global.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Item.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Kaban.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\MainLoop.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Maze.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Object.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Player.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Popup.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Resource.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Resume.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Serval.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Sound.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Toki.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Tsuchinoko.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\TinyLibrary\AdpcmDecorder.cpp">
+      <Filter>src\TinyLibrary</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\TinyLibrary\Mathmatics.cpp">
+      <Filter>src\TinyLibrary</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\TinyLibrary\SoundMixer.cpp">
+      <Filter>src\TinyLibrary</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\TinyLibrary\SoundPlayer.cpp">
+      <Filter>src\TinyLibrary</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\TinyLibrary\SDL2\Controller.cpp">
+      <Filter>src\TinyLibrary\SDL2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\TinyLibrary\SDL2\main.cpp">
+      <Filter>src\TinyLibrary\SDL2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\TinyLibrary\SDL2\RingBuffer.cpp">
+      <Filter>src\TinyLibrary\SDL2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\TinyLibrary\SDL2\Screen.cpp">
+      <Filter>src\TinyLibrary\SDL2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\TinyLibrary\SDL2\SoundStream.cpp">
+      <Filter>src\TinyLibrary\SDL2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\TinyLibrary\SDL2\TinyFile.cpp">
+      <Filter>src\TinyLibrary\SDL2</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\src">
+      <UniqueIdentifier>{78e281e0-b3fa-41e6-a336-93c276eba969}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\src\TinyLibrary">
+      <UniqueIdentifier>{fdc4a1c1-bc7f-4dd6-81cd-9ae4e4cccb93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\src\TinyLibrary\Windows">
+      <UniqueIdentifier>{bf989d2d-3e5b-434a-900c-e377efa2ddcb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\BgChip.h">
+      <Filter>ソース ファイル\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\BgMap.hpp">
+      <Filter>ソース ファイル\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\BgMapData.h">
+      <Filter>ソース ファイル\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Character.h">
+      <Filter>ソース ファイル\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Enemy.hpp">
+      <Filter>ソース ファイル\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Game.hpp">
+      <Filter>ソース ファイル\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Global.hpp">
+      <Filter>ソース ファイル\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Hiyoko.hpp">
+      <Filter>ソース ファイル\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\hiyoko_01.h">
+      <Filter>ソース ファイル\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\jump_01_take2.h">
+      <Filter>ソース ファイル\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Knockdown.h">
+      <Filter>ソース ファイル\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MainLoop.hpp">
+      <Filter>ソース ファイル\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MessageImage.h">
+      <Filter>ソース ファイル\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Player.hpp">
+      <Filter>ソース ファイル\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Resource.hpp">
+      <Filter>ソース ファイル\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\TinyLibrary.hpp">
+      <Filter>ソース ファイル\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\TitleImage.h">
+      <Filter>ソース ファイル\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\TwinkleBeep04_11KHz_8bit_mono.h">
+      <Filter>ソース ファイル\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\TinyLibrary\Dependent.hpp">
+      <Filter>ソース ファイル\src\TinyLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\TinyLibrary\Font4x6.h">
+      <Filter>ソース ファイル\src\TinyLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\TinyLibrary\Font4x6_65536.h">
+      <Filter>ソース ファイル\src\TinyLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\TinyLibrary\Font6x8.h">
+      <Filter>ソース ファイル\src\TinyLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\TinyLibrary\Font6x8_65536.h">
+      <Filter>ソース ファイル\src\TinyLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\TinyLibrary\Mathmatics.hpp">
+      <Filter>ソース ファイル\src\TinyLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\TinyLibrary\SoundMixer.hpp">
+      <Filter>ソース ファイル\src\TinyLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\TinyLibrary\SoundPlayer.hpp">
+      <Filter>ソース ファイル\src\TinyLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\TinyLibrary\TinyLibrary.hpp">
+      <Filter>ソース ファイル\src\TinyLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\TinyLibrary\Windows\Controller.hpp">
+      <Filter>ソース ファイル\src\TinyLibrary\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\TinyLibrary\Windows\resource.h">
+      <Filter>ソース ファイル\src\TinyLibrary\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\TinyLibrary\Windows\Screen.hpp">
+      <Filter>ソース ファイル\src\TinyLibrary\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\TinyLibrary\Windows\SoundStream.hpp">
+      <Filter>ソース ファイル\src\TinyLibrary\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\TinyLibrary\Windows\TinyFile.hpp">
+      <Filter>ソース ファイル\src\TinyLibrary\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\TinyLibrary\Windows\WinMain.hpp">
+      <Filter>ソース ファイル\src\TinyLibrary\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\TinyLibrary\AdpcmDecorder.hpp">
+      <Filter>ソース ファイル\src\TinyLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Config.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\BgMap.cpp">
+      <Filter>ソース ファイル\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Enemy.cpp">
+      <Filter>ソース ファイル\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Game.cpp">
+      <Filter>ソース ファイル\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Global.cpp">
+      <Filter>ソース ファイル\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Hiyoko.cpp">
+      <Filter>ソース ファイル\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MainLoop.cpp">
+      <Filter>ソース ファイル\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Player.cpp">
+      <Filter>ソース ファイル\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Resource.cpp">
+      <Filter>ソース ファイル\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\TinyLibrary\Mathmatics.cpp">
+      <Filter>ソース ファイル\src\TinyLibrary</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\TinyLibrary\SoundMixer.cpp">
+      <Filter>ソース ファイル\src\TinyLibrary</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\TinyLibrary\SoundPlayer.cpp">
+      <Filter>ソース ファイル\src\TinyLibrary</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\TinyLibrary\Windows\Controller.cpp">
+      <Filter>ソース ファイル\src\TinyLibrary\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\TinyLibrary\Windows\Screen.cpp">
+      <Filter>ソース ファイル\src\TinyLibrary\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\TinyLibrary\Windows\SoundStream.cpp">
+      <Filter>ソース ファイル\src\TinyLibrary\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\TinyLibrary\Windows\TinyFile.cpp">
+      <Filter>ソース ファイル\src\TinyLibrary\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\TinyLibrary\Windows\WinMain.cpp">
+      <Filter>ソース ファイル\src\TinyLibrary\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\TinyLibrary\AdpcmDecorder.cpp">
+      <Filter>ソース ファイル\src\TinyLibrary</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\src\TinyLibrary\Windows\icon.ico">
+      <Filter>ソース ファイル\src\TinyLibrary\Windows</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\src\TinyLibrary\Windows\WinMain.rc">
+      <Filter>リソース ファイル</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
