@@ -3,7 +3,11 @@
 #include "Global.hpp"
 #include "Resume.hpp"
 
+#ifdef RGNANO
+static const char* RESUME_FILEPATH = "/mnt/KemonoRogue_Resume.sav";
+#else
 static const char* RESUME_FILEPATH = "KemonoRogue/Resume.sav";
+#endif
 
 bool Resume::Load(Resume::Data* data)
 {

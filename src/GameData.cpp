@@ -1,7 +1,11 @@
 #include "TinyLibrary.hpp"
 #include "GameData.hpp"
 
+#ifdef RGNANO
+static const char* FILEPATH = "/mnt/KemonoRogue_KemonoRogue.sav";
+#else
 static const char* FILEPATH = "KemonoRogue/KemonoRogue.sav";
+#endif
 
 GameData::GameData(void)
 {
