@@ -15,7 +15,7 @@ https://github.com/kuran-kuran/KemonoRogue/releases (まだ作成中です)
 
 # ライセンス
 
-TinySTGはMIT Licenseとします。  
+けものローグはMIT Licenseとします。  
 SDL 2.0はzlibライセンス, SDL 1.2はGNU LGPLライセンスです。  
 
 # 作者について
