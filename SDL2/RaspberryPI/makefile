@@ -24,6 +24,7 @@ SRCS    = ../../src/Boss1.cpp \
 ../../src/Tsuchinoko.cpp \
 ../../src/TinyLibrary/AdpcmDecorder.cpp \
 ../../src/TinyLibrary/Mathmatics.cpp \
+../../src/TinyLibrary/Report.cpp \
 ../../src/TinyLibrary/SoundMixer.cpp \
 ../../src/TinyLibrary/SoundPlayer.cpp \
 ../../src/TinyLibrary/SDL2/Controller.cpp \

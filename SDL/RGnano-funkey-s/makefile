@@ -1,52 +1,137 @@
 CC = arm-funkey-linux-musleabihf-gcc.br_real
-CPPFLAG = -lSDL -D SDL -D RGNANO -lstdc++
+CPPFLAG = -static -lstdc++ -lSDL -lasound -D SDL -D RGNANO
 LIBS = 
 INCDIR = 
 LIBDIR = 
 TARGET = KemonoRogue_funkey-s
 
-SRCS    = ../../src/Boss1.cpp \
-../../src/Cerulean.cpp \
-../../src/Ending.cpp \
-../../src/Enemy.cpp \
-../../src/FloorMap.cpp \
-../../src/Game.cpp \
-../../src/GameData.cpp \
-../../src/Global.cpp \
-../../src/Item.cpp \
-../../src/Kaban.cpp \
-../../src/MainLoop.cpp \
-../../src/Maze.cpp \
-../../src/Object.cpp \
-../../src/Player.cpp \
-../../src/Popup.cpp \
-../../src/Resource.cpp \
-../../src/Resume.cpp \
-../../src/Serval.cpp \
-../../src/Sound.cpp \
-../../src/Toki.cpp \
-../../src/Tsuchinoko.cpp \
-../../src/TinyLibrary/AdpcmDecorder.cpp \
-../../src/TinyLibrary/Mathmatics.cpp \
-../../src/TinyLibrary/Report.cpp \
-../../src/TinyLibrary/SoundMixer.cpp \
-../../src/TinyLibrary/SoundPlayer.cpp \
-../../src/TinyLibrary/SDL/Controller.cpp \
-../../src/TinyLibrary/SDL/main.cpp \
-../../src/TinyLibrary/SDL/Screen.cpp \
-../../src/TinyLibrary/SDL/SoundStream.cpp \
-../../src/TinyLibrary/SDL/TinyFile.cpp \
-../../src/TinyLibrary/SDL/RingBuffer.cpp
-
-OBJS    = $(SRCS:.cpp=.o)
+OBJS = main.o \
+Cerulean.o \
+Ending.o \
+Enemy.o \
+FloorMap.o \
+Game.o \
+GameData.o \
+Global.o \
+Item.o \
+Kaban.o \
+MainLoop.o \
+Maze.o \
+Object.o \
+Player.o \
+Popup.o \
+Resource.o \
+Resume.o \
+Serval.o \
+Sound.o \
+Toki.o \
+Tsuchinoko.o \
+AdpcmDecorder.o \
+Mathmatics.o \
+Report.o \
+SoundMixer.o \
+SoundPlayer.o \
+Controller.o \
+Screen.o \
+SoundStream.o \
+TinyFile.o \
+RingBuffer.o
 
 $(TARGET): $(OBJS)
-    $(CC) -o $@ $^ $(LIBDIR) $(LIBS)
+	$(CC) -o $(TARGET)/$(TARGET) $^ $(CPPFLAG) $(LIBDIR) $(LIBS)
 
-$(OBJS): $(SRCS)
-    $(CC) $(CFLAGS) $(INCDIR) -c $(SRCS)
+main.o: ../../src/TinyLibrary/SDL/main.cpp
+	$(CC) -c $(CPPFLAG) $(INCDIR) $<
 
-all: clean $(OBJS) $(TARGET)
+Cerulean.o: ../../src/Cerulean.cpp
+	$(CC) -c $(CPPFLAG) $(INCDIR) $<
+
+Ending.o: ../../src/Ending.cpp
+	$(CC) -c $(CPPFLAG) $(INCDIR) $<
+
+Enemy.o: ../../src/Enemy.cpp
+	$(CC) -c $(CPPFLAG) $(INCDIR) $<
+
+FloorMap.o: ../../src/FloorMap.cpp
+	$(CC) -c $(CPPFLAG) $(INCDIR) $<
+
+Game.o: ../../src/Game.cpp
+	$(CC) -c $(CPPFLAG) $(INCDIR) $<
+
+GameData.o: ../../src/GameData.cpp
+	$(CC) -c $(CPPFLAG) $(INCDIR) $<
+
+Global.o: ../../src/Global.cpp
+	$(CC) -c $(CPPFLAG) $(INCDIR) $<
+
+Item.o: ../../src/Item.cpp
+	$(CC) -c $(CPPFLAG) $(INCDIR) $<
+
+Kaban.o: ../../src/Kaban.cpp
+	$(CC) -c $(CPPFLAG) $(INCDIR) $<
+
+MainLoop.o: ../../src/MainLoop.cpp
+	$(CC) -c $(CPPFLAG) $(INCDIR) $<
+
+Maze.o: ../../src/Maze.cpp
+	$(CC) -c $(CPPFLAG) $(INCDIR) $<
+
+Object.o: ../../src/Object.cpp
+	$(CC) -c $(CPPFLAG) $(INCDIR) $<
+
+Player.o: ../../src/Player.cpp
+	$(CC) -c $(CPPFLAG) $(INCDIR) $<
+
+Popup.o: ../../src/Popup.cpp
+	$(CC) -c $(CPPFLAG) $(INCDIR) $<
+
+Resource.o: ../../src/Resource.cpp
+	$(CC) -c $(CPPFLAG) $(INCDIR) $<
+
+Resume.o: ../../src/Resume.cpp
+	$(CC) -c $(CPPFLAG) $(INCDIR) $<
+
+Serval.o: ../../src/Serval.cpp
+	$(CC) -c $(CPPFLAG) $(INCDIR) $<
+
+Sound.o: ../../src/Sound.cpp
+	$(CC) -c $(CPPFLAG) $(INCDIR) $<
+
+Toki.o: ../../src/Toki.cpp
+	$(CC) -c $(CPPFLAG) $(INCDIR) $<
+
+Tsuchinoko.o: ../../src/Tsuchinoko.cpp
+	$(CC) -c $(CPPFLAG) $(INCDIR) $<
+
+AdpcmDecorder.o: ../../src/TinyLibrary/AdpcmDecorder.cpp
+	$(CC) -c $(CPPFLAG) $(INCDIR) $<
+
+Mathmatics.o: ../../src/TinyLibrary/Mathmatics.cpp
+	$(CC) -c $(CPPFLAG) $(INCDIR) $<
+
+Report.o: ../../src/TinyLibrary/Report.cpp
+	$(CC) -c $(CPPFLAG) $(INCDIR) $<
+
+SoundMixer.o: ../../src/TinyLibrary/SoundMixer.cpp
+	$(CC) -c $(CPPFLAG) $(INCDIR) $<
+
+SoundPlayer.o: ../../src/TinyLibrary/SoundPlayer.cpp
+	$(CC) -c $(CPPFLAG) $(INCDIR) $<
+
+Controller.o: ../../src/TinyLibrary/SDL/Controller.cpp
+	$(CC) -c $(CPPFLAG) $(INCDIR) $<
+
+Screen.o: ../../src/TinyLibrary/SDL/Screen.cpp
+	$(CC) -c $(CPPFLAG) $(INCDIR) $<
+
+SoundStream.o: ../../src/TinyLibrary/SDL/SoundStream.cpp
+	$(CC) -c $(CPPFLAG) $(INCDIR) $<
+
+TinyFile.o: ../../src/TinyLibrary/SDL/TinyFile.cpp
+	$(CC) -c $(CPPFLAG) $(INCDIR) $<
+
+RingBuffer.o: ../../src/TinyLibrary/SDL/RingBuffer.cpp
+	$(CC) -c $(CPPFLAG) $(INCDIR) $<
 
 clean:
-    -rm -f $(OBJS) $(TARGET) *.d
+	-rm -f $(OBJS) $(TARGET) *.d

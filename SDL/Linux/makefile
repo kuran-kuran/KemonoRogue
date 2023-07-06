@@ -1,33 +1,31 @@
 CC = g++
-CPPFLAG = -lSDL -D SDL
+CPPFLAG = -lSDL -lasound -D SDL
 LIBS = 
 INCDIR = 
 LIBDIR = 
-TARGET = TinySTG_exe
+TARGET = KemonoRogue
 
 OBJS = main.o \
-Boss1.o \
-Boss2.o \
-Boss3.o \
-Boss4.o \
-Boss5.o \
-Boss6.o \
-Bullet.o \
+Cerulean.o \
+Ending.o \
 Enemy.o \
-Enemy1.o \
-Enemy2.o \
-Enemy3.o \
-Enemy4.o \
-Enemy5.o \
-Explode.o \
+FloorMap.o \
 Game.o \
+GameData.o \
 Global.o \
+Item.o \
+Kaban.o \
 MainLoop.o \
+Maze.o \
+Object.o \
 Player.o \
-PowerUp.o \
+Popup.o \
 Resource.o \
-Shot.o \
+Resume.o \
+Serval.o \
 Sound.o \
+Toki.o \
+Tsuchinoko.o \
 AdpcmDecorder.o \
 Mathmatics.o \
 Report.o \
@@ -45,70 +43,64 @@ $(TARGET): $(OBJS)
 main.o: ../../src/TinyLibrary/SDL/main.cpp
 	$(CC) -c $(CPPFLAG) $(INCDIR) $<
 
-Boss1.o: ../../src/Boss1.cpp
+Cerulean.o: ../../src/Cerulean.cpp
 	$(CC) -c $(CPPFLAG) $(INCDIR) $<
 
-Boss2.o: ../../src/Boss2.cpp
-	$(CC) -c $(CPPFLAG) $(INCDIR) $<
-
-Boss3.o: ../../src/Boss3.cpp
-	$(CC) -c $(CPPFLAG) $(INCDIR) $<
-
-Boss4.o: ../../src/Boss4.cpp
-	$(CC) -c $(CPPFLAG) $(INCDIR) $<
-
-Boss5.o: ../../src/Boss5.cpp
-	$(CC) -c $(CPPFLAG) $(INCDIR) $<
-
-Boss6.o: ../../src/Boss6.cpp
-	$(CC) -c $(CPPFLAG) $(INCDIR) $<
-
-Bullet.o: ../../src/Bullet.cpp
+Ending.o: ../../src/Ending.cpp
 	$(CC) -c $(CPPFLAG) $(INCDIR) $<
 
 Enemy.o: ../../src/Enemy.cpp
 	$(CC) -c $(CPPFLAG) $(INCDIR) $<
 
-Enemy1.o: ../../src/Enemy1.cpp
-	$(CC) -c $(CPPFLAG) $(INCDIR) $<
-
-Enemy2.o: ../../src/Enemy2.cpp
-	$(CC) -c $(CPPFLAG) $(INCDIR) $<
-
-Enemy3.o: ../../src/Enemy3.cpp
-	$(CC) -c $(CPPFLAG) $(INCDIR) $<
-
-Enemy4.o: ../../src/Enemy4.cpp
-	$(CC) -c $(CPPFLAG) $(INCDIR) $<
-
-Enemy5.o: ../../src/Enemy5.cpp
-	$(CC) -c $(CPPFLAG) $(INCDIR) $<
-
-Explode.o: ../../src/Explode.cpp
+FloorMap.o: ../../src/FloorMap.cpp
 	$(CC) -c $(CPPFLAG) $(INCDIR) $<
 
 Game.o: ../../src/Game.cpp
 	$(CC) -c $(CPPFLAG) $(INCDIR) $<
 
+GameData.o: ../../src/GameData.cpp
+	$(CC) -c $(CPPFLAG) $(INCDIR) $<
+
 Global.o: ../../src/Global.cpp
+	$(CC) -c $(CPPFLAG) $(INCDIR) $<
+
+Item.o: ../../src/Item.cpp
+	$(CC) -c $(CPPFLAG) $(INCDIR) $<
+
+Kaban.o: ../../src/Kaban.cpp
 	$(CC) -c $(CPPFLAG) $(INCDIR) $<
 
 MainLoop.o: ../../src/MainLoop.cpp
 	$(CC) -c $(CPPFLAG) $(INCDIR) $<
 
+Maze.o: ../../src/Maze.cpp
+	$(CC) -c $(CPPFLAG) $(INCDIR) $<
+
+Object.o: ../../src/Object.cpp
+	$(CC) -c $(CPPFLAG) $(INCDIR) $<
+
 Player.o: ../../src/Player.cpp
 	$(CC) -c $(CPPFLAG) $(INCDIR) $<
 
-PowerUp.o: ../../src/PowerUp.cpp
+Popup.o: ../../src/Popup.cpp
 	$(CC) -c $(CPPFLAG) $(INCDIR) $<
 
 Resource.o: ../../src/Resource.cpp
 	$(CC) -c $(CPPFLAG) $(INCDIR) $<
 
-Shot.o: ../../src/Shot.cpp
+Resume.o: ../../src/Resume.cpp
+	$(CC) -c $(CPPFLAG) $(INCDIR) $<
+
+Serval.o: ../../src/Serval.cpp
 	$(CC) -c $(CPPFLAG) $(INCDIR) $<
 
 Sound.o: ../../src/Sound.cpp
+	$(CC) -c $(CPPFLAG) $(INCDIR) $<
+
+Toki.o: ../../src/Toki.cpp
+	$(CC) -c $(CPPFLAG) $(INCDIR) $<
+
+Tsuchinoko.o: ../../src/Tsuchinoko.cpp
 	$(CC) -c $(CPPFLAG) $(INCDIR) $<
 
 AdpcmDecorder.o: ../../src/TinyLibrary/AdpcmDecorder.cpp

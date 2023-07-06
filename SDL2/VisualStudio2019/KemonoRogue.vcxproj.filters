@@ -201,6 +201,9 @@
     <ClInclude Include="..\..\src\TinyLibrary\SDL2\TinyFile.hpp">
       <Filter>src\TinyLibrary\SDL2</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\src\TinyLibrary\Report.hpp">
+      <Filter>src\TinyLibrary</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\src\Cerulean.cpp">
@@ -292,6 +295,9 @@
     </ClCompile>
     <ClCompile Include="..\..\src\TinyLibrary\SDL2\TinyFile.cpp">
       <Filter>src\TinyLibrary\SDL2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\TinyLibrary\Report.cpp">
+      <Filter>src\TinyLibrary</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

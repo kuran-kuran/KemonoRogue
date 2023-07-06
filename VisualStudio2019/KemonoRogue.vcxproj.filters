@@ -218,6 +218,9 @@
     <ClInclude Include="..\src\Window.h">
       <Filter>source\src</Filter>
     </ClInclude>
+    <ClInclude Include="..\src\TinyLibrary\Report.hpp">
+      <Filter>source\src\TinyLibrary</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\src\TinyLibrary\AdpcmDecorder.cpp">
@@ -306,6 +309,9 @@
     </ClCompile>
     <ClCompile Include="..\src\Tsuchinoko.cpp">
       <Filter>source\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\TinyLibrary\Report.cpp">
+      <Filter>source\src\TinyLibrary</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
