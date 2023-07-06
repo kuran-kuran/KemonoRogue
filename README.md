@@ -6,7 +6,7 @@ http://kemono-friends.jp/
 
 # ダウンロード
 RG Nano版  
-https://github.com/kuran-kuran/KemonoRogue/releases (まだ作成中です)  
+https://github.com/kuran-kuran/KemonoRogue/releases
 
 # 遊び方
 - タイトル画面でボタンを押したらゲームスタート。上下操作で音量を調節できます。  
