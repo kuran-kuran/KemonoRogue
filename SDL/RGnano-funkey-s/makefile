@@ -1,5 +1,5 @@
 CC = arm-funkey-linux-musleabihf-gcc.br_real
-CPPFLAG = -static -lstdc++ -lSDL -lasound -D SDL -D RGNANO
+CPPFLAG = -lstdc++ -lSDL -D SDL -D RGNANO
 LIBS = 
 INCDIR = 
 LIBDIR = 
