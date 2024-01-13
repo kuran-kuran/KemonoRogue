@@ -1,7 +1,18 @@
-CC      = g++
-CFLAGS  = `sdl2-config --cflags --libs` -D SDL2
-TARGET  = TinySTG
-SRCS    = ../../src/Boss1.cpp \
+CC = g++
+CFLAGS = `sdl2-config --cflags --libs` -D SDL2
+TARGET = KemonoRogue_exe
+SRCS = \
+../../src/TinyLibrary/AdpcmDecorder.cpp \
+../../src/TinyLibrary/Mathmatics.cpp \
+../../src/TinyLibrary/SoundMixer.cpp \
+../../src/TinyLibrary/SoundPlayer.cpp \
+../../src/TinyLibrary/Report.cpp \
+../../src/TinyLibrary/SDL2/Controller.cpp \
+../../src/TinyLibrary/SDL2/main.cpp \
+../../src/TinyLibrary/SDL2/Screen.cpp \
+../../src/TinyLibrary/SDL2/SoundStream.cpp \
+../../src/TinyLibrary/SDL2/TinyFile.cpp \
+../../src/TinyLibrary/SDL2/RingBuffer.cpp \
 ../../src/Cerulean.cpp \
 ../../src/Ending.cpp \
 ../../src/Enemy.cpp \
@@ -21,34 +32,25 @@ SRCS    = ../../src/Boss1.cpp \
 ../../src/Serval.cpp \
 ../../src/Sound.cpp \
 ../../src/Toki.cpp \
-../../src/Tsuchinoko.cpp \
-../../src/TinyLibrary/AdpcmDecorder.cpp \
-../../src/TinyLibrary/Mathmatics.cpp \
-../../src/TinyLibrary/Report.cpp \
-../../src/TinyLibrary/SoundMixer.cpp \
-../../src/TinyLibrary/SoundPlayer.cpp \
-../../src/TinyLibrary/SDL2/Controller.cpp \
-../../src/TinyLibrary/SDL2/main.cpp \
-../../src/TinyLibrary/SDL2/Screen.cpp \
-../../src/TinyLibrary/SDL2/SoundStream.cpp \
-../../src/TinyLibrary/SDL2/TinyFile.cpp \
-../../src/TinyLibrary/SDL2/RingBuffer.cpp
+../../src/Tsuchinoko.cpp
 
-OBJS    = $(SRCS:.cpp=.o)
+OBJS3    = $(SRCS:../../src/%.cpp=./%.o)
+OBJS2    = $(OBJS3:./TinyLibrary/%.o=./%.o)
+OBJS    = $(OBJS2:./SDL2/%.o=./%.o)
 
 INCDIR  = 
 
 LIBDIR  = 
 
-LIBS    = -lSDL2_image
+LIBS    = 
 
 $(TARGET): $(OBJS)
-    $(CC) -o $@ $^ $(LIBDIR) $(LIBS)
+	$(CC) -o $@ $^ $(CFLAGS) $(LIBDIR) $(LIBS)
 
 $(OBJS): $(SRCS)
-    $(CC) $(CFLAGS) $(INCDIR) -c $(SRCS)
+	$(CC) $(CFLAGS) $(INCDIR) -c $(SRCS)
 
 all: clean $(OBJS) $(TARGET)
 
 clean:
-    -rm -f $(OBJS) $(TARGET) *.d
+	-rm -f $(OBJS) $(TARGET) *.d
