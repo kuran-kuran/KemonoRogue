@@ -19,6 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\Config.h" />
     <ClInclude Include="..\..\src\Button.h" />
     <ClInclude Include="..\..\src\Cerulean.hpp" />
     <ClInclude Include="..\..\src\Character.h" />
