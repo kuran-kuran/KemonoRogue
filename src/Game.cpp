@@ -14,6 +14,9 @@
 #include "Sound.hpp"
 #include "Game.hpp"
 
+int Game::PLAYER_X = (Screen::WIDTH - CHIP_SIZE) / 2;
+int Game::PLAYER_Y = (Screen::HEIGHT - CHIP_SIZE) / 2;
+
 Game::Game(void)
 :before_button(0)
 ,floor(1)

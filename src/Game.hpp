@@ -16,11 +16,11 @@ class Game
 public:
 	enum
 	{
-		SCREEN_WIDTH = Screen::WIDTH,
-		SCREEN_HEIGHT = Screen::HEIGHT,
+//		SCREEN_WIDTH = Screen::WIDTH,
+//		SCREEN_HEIGHT = Screen::HEIGHT,
 		CHIP_SIZE = 12,
-		PLAYER_X = (SCREEN_WIDTH - CHIP_SIZE) / 2,
-		PLAYER_Y = (SCREEN_HEIGHT - CHIP_SIZE) / 2,
+//		PLAYER_X = (SCREEN_WIDTH - CHIP_SIZE) / 2,
+//		PLAYER_Y = (SCREEN_HEIGHT - CHIP_SIZE) / 2,
 		MESSAGE_TYPE_FLOOR = 1,
 		MESSAGE_COUNT_DEFAULT = 30 * 1,
 		ENEMY_MAX = 32,
@@ -79,6 +79,8 @@ public:
 		int x; // ‰æ‘œˆÊ’u
 		int y; // ‰æ‘œˆÊ’u
 	};
+	static int PLAYER_X;
+	static int PLAYER_Y;
 	Game(void);
 	~Game(void);
 	void Initialize(int player_type);

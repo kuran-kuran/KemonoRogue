@@ -28,6 +28,8 @@ public:
 		PHASE_GAME_END,
 		PHASE_GAME_RESULT,
 		PHASE_ENDING,
+		PHASE_QUIT_MENU,
+		PHASE_QUIT_MENU_WAIT
 	};
 	Global(void);
 	~Global(void);
@@ -36,6 +38,7 @@ public:
 	static void Initialize(void);
 	static void Finalize(void);
 	int phase;
+	int before_phase;
 	unsigned char back_color;
 	unsigned int before_button;
 	Game* game;
@@ -55,6 +58,8 @@ public:
 	bool resume;
 	bool enable_button;
 	Ending* ending;
+	bool quit_menu;
+	int quit_menu_wait_counter;
 private:
 	Global(Global&);
 	Global& operator = (Global&);
