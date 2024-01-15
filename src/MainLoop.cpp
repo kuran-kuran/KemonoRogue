@@ -718,10 +718,6 @@ bool MainLoop_Loop(void)
 		}
 		break;
 	}
-	if((button & Controller::BUTTON_START) && (button & Controller::BUTTON_SELECT))
-	{
-		exit = true;
-	}
 	if(global.phase < Global::PHASE_QUIT_MENU)
 	{
 		if((button & Controller::BUTTON_START) && (button & Controller::BUTTON_SELECT))
