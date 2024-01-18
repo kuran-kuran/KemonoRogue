@@ -24,8 +24,9 @@ SDカードのApplicationsフォルダにKemonoRogue.opkをコピーしてくだ
 
 # ライセンス
 
-けものローグはMIT Licenseとします。  
-SDL 2.0はzlibライセンス, SDL 1.2はGNU LGPLライセンスです。  
+けものローグはMIT Licenseとします。
+しかしRGnano版、WindowsSDL版はSDL 1.2を使用しているためGNU LGPLライセンスになります。
+SDL 2.0はzlibライセンスです。
 
 # 作者について
 
